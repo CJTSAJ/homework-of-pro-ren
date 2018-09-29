@@ -12,7 +12,7 @@ For example, a query job like
 
 will be represented like
 
-![1](D:\ren\Homework1\Apollo\1.png)
+![1](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Apollo/1.png)
 
 ## Challenges
 
@@ -38,7 +38,7 @@ To scale, Apollo adopts a distributed and coordinated architecture There is one 
 
 
 
-#### Representing![2](D:\ren\Homework1\Apollo\2.png) Load
+#### Representing![2](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Apollo/2.png) Load
 
 The server load representation must
 ― Be hardware independent
