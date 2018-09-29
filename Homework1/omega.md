@@ -1,1 +1,1 @@
-#Omega google
+#Omega
