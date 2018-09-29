@@ -9,15 +9,15 @@
 ### 3.1 Create a Kubernetes cluster
 ![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Kubernete/module_01.svg)
 ### 3.2 Deploy an app
-![](https://github.com/CJTSAJ/homework-of-pro-ren/blod/master/Homework1/Kubernete/module_02.svg)
+![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Kubernete/module_02.svg)
 ### 3.3 Explore your app
-![](https://github.com/CJTSAJ/homework-of-pro-ren/blod/master/Homework1/Kubernete/module_03.svg)
+![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Kubernete/module_03.svg)
 ### 3.4 Expose your app publicly
-![](https://github.com/CJTSAJ/homework-of-pro-ren/blod/master/Homework1/Kubernete/module_04.svg)
+![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Kubernete/module_04.svg)
 ### 3.5 Scale up your app
-![](https://github.com/CJTSAJ/homework-of-pro-ren/blod/master/Homework1/Kubernete/module_05.svg)
+![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Kubernete/module_05.svg)
 ### 3.6 Update your app
-![](https://github.com/CJTSAJ/homework-of-pro-ren/blod/master/Homework1/Kubernete/module_06.svg)
+![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework1/Kubernete/module_06.svg)
 ## 4 核心概念 
 
 ### 4.1 Node
