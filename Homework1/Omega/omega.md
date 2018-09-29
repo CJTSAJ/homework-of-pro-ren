@@ -1,7 +1,9 @@
 # Omega
 ## 背景
 Google的第一代、第二代集群（资源）管理系统被称为Borg。Borg设计细节因零零星星出现在各种文章中而知名，但一直未公开。而在近期，Google公布了它的下一代集群管理系统Omega的设计细节。论文中谈到Google经历的三代资源调度器的架构，如图所示：
+
 ![](http://dl2.iteye.com/upload/attachment/0096/2692/311557cb-53b5-3f18-b48e-143727795743.png)
+
 1. 中央式调度器架构(Monolithic)（Hadoop JobTracker，但是支持多种类型作业调度）
 2. 双层调度器架构(Two-level)（Apache Mesos和Hadoop YARN）
 3. 共享状态架构(Shared state)（Omega）
