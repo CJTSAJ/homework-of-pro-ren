@@ -9,7 +9,10 @@
 ​     In daily life, the word "bandwidth" and "throughput" in a computer network can easily be confused. The difference is 
 
 + bandwidth: It emphasizes the maximum data transmission rate of the network, namely the peak of transmission data rate theory.
+
 + throughput: emphasize the actual data transmission rate of the network.
+
+  Performance: 56 k dial-up modem using telephone lines, its bandwidth is 56000 bit/s (1 k = 1000 bit/s), telecom ADSL broadband Internet access in 512 kbit/s to 10 mbit/s, and more than 10 MBPS Ethernet (1 mbit/s = 1000 * 1000 - bit/s = 10 ^ 6 bit/s).
 
 ### Devices
 
@@ -18,10 +21,20 @@
 ​    Switch is a communication system in the completion of information exchange function equipment, which has these basic functions:
 
 + Like hubs, switches provide a large number of ports for cable connections, which can be routed using a star topology.
+
 + Like a repeater, hub, and bridge, when it transmits a frame, the switch reproduces a true square electrical signal.
+
 + Like a bridge, a switch USES the same forwarding or filtering logic on each port. 
+
 + Like Bridges, switches divide lans into multiple conflict domains, each with a separate broadband, which greatly increases the bandwidth of lans. 
+
 + In addition to features such as Bridges, hubs, and Repeaters, switches offer more advanced features such as virtual local area networks (VLAN) and higher performance
+
+  Performance:
+
+  - The back width. The backplane is the physical channel between the switch's input and output. The wider the backplane bandwidth, the faster the data processing speed of the switch, the smaller the packet forwarding delay, and the better the performance.
+  - Full duplex port bandwidth. Full duplex port bandwidth is calculated by: port number * port rate *2. An important parameter in switch selection is backplane bandwidth/full duplex port bandwidth. The larger the ratio, the more the switch can approach high-performance, non-blocking switching.
+  - Frame rate. Frame forwarding rate refers to the maximum value that the switch can forward frames per second. Delay is the time that the first bit of the frame enters the switch and the last bit of the frame leaves the switch. The delay parameter of the switch is directly related to the switching mode adopted by the switch.
 
 #### Router
 
@@ -63,3 +76,12 @@
 ## Building Connection
 
 ![这里写图片描述](https://img-blog.csdn.net/2018031615485873?watermark/2/text/Ly9ibG9nLmNzZG4ubmV0L2FhYV9hX2JfYw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+## My Comment
+
+The computer network is an epoch-making invention. It solves following problems:
+
+- Can realize rapid transmission and centralized processing of data information
+- Share computer system resources
+- Improved the reliability and availability of the computer
+- Can balance load and cooperate with each other
