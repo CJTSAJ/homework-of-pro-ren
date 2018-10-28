@@ -37,6 +37,9 @@ XPU基于Xilinx FPGA Kintex UltraScale器件研发。其提供了 ASIC 级系统
 
 3.具有改进的逻辑架构，以最大限度地提高性能和器件利用率
 
-
+## Reference
+1. [Xilinx官网](http://china.xilinx.com/)
+2. [Baidu details FPGA-based Cloud acceleration with 256-core XPU today at Hot Chips in Cupertino, CA](https://forums.xilinx.com/t5/Xcell-Daily-Blog-Archived/Baidu-details-FPGA-based-Cloud-acceleration-with-256-core-XPU/ba-p/788151)
+3. [ Xilinx Kintex UltraScale+ FPGAs](https://www.xilinx.com/products/silicon-devices/fpga/kintex-ultrascale-plus.html)
 
 
