@@ -16,3 +16,12 @@
 | 李琥 | sheep1998 | CPU |
 | 方娄昊 | Fanglouhao | xPU |
 | 贾兴国 | snake0 | Storage |
+
+## Homework3
+| 姓名 | ID | 内容 |
+| ------ | ------ | ------ |
+| 陈江涛 | CJTSAJ  | partB |
+| 罗一淏| Howard21432134 | partA |
+| 李琥 | sheep1998 | partC |
+| 方娄昊 | Fanglouhao | partE |
+| 贾兴国 | snake0 | partD |
