@@ -1,4 +1,4 @@
-#Drone的安装和使用
+# Drone的安装和使用
 ## 1.安装Docker
 ```
 apt-get update
@@ -18,7 +18,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker pull drone/drone:0.8
 ```
 ## 4.设置OAuth application，以此联系Drone与github
-
+![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework4/png/1.png)
 ## 5.使用docker-compose下载Drone，并启动Drone Server
 新建docker-compose.yaml文件
 
@@ -70,3 +70,4 @@ volumes:
 docker-compose up
 ```
 ## 访问OAuth app的地址查看结果
+![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework4/png/2.png)
