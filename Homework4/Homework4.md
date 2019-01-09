@@ -109,5 +109,17 @@ sudo minikube start --vm-driver=none
 sudo kubectl run kube-nginx999 --image=nginx:latest --port=80 --image-pull-policy=IfNotPresent
 ```
 #### 查看状态
+```
+root@data2:/# sudo kubectl get pods
+NAME                            READY   STATUS    RESTARTS   AGE
+kube-nginx999-ff58f75b7-fxndz   1/1     Running   0          1m
+```
+
+#### 打开dashboard
+dashboard暂时无法打开，不知原因
+```
+root@data2:/# minikube dashboard --url
+http://172.17.32.12:30000
+```
 
 ### 项目未完成，将继续跟进，希望老师通融
