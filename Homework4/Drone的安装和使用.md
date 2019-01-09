@@ -1,4 +1,4 @@
-# Drone的安装和使用
+# Requirment1
 ## 1.安装Docker
 ```
 apt-get update
@@ -69,7 +69,45 @@ volumes:
 ```
 docker-compose up
 ```
-## 访问OAuth app的地址查看结果
+
+## 配置集成项目
+- 登录drone服务，设置hook，监听仓库动态
+- 编写前后端.drone.yml和dockerfile文件
+- 前后端打包入docker hub，在服务器上运行这两个docker镜像，设置对应端口后，可用浏览器进行访问
+- [前端](https://github.com/CJTSAJ/drone) [后端](https://github.com/CJTSAJ/drone-backend)
+
 ![](https://github.com/CJTSAJ/homework-of-pro-ren/blob/master/Homework4/png/2.png)
+
+# Requierment2
+## 在单机上部署kubernate
+#### 安装docker
+```
+sudo apt-get update
+sudo apt-get install docker.io
+```
+
+#### 安装虚拟机
+```
+sudo apt-get install virtualbox
+```
+
+#### 安装kubectl
+由于防火墙原因，国内不可以直接下载安装包，我将下载好的安装包上传到自己的github，然后从服务器拉取，解压
+
+#### 安装minikube
+```
+curl -Lo minikube http://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/releases/v0.28.0/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+```
+
+#### 启动minikube
+```
+sudo minikube start --vm-driver=none
+```
+
+#### 启动容器服务
+```
+sudo kubectl run kube-nginx999 --image=nginx:latest --port=80 --image-pull-policy=IfNotPresent
+```
+#### 查看状态
 
 ### 项目未完成，将继续跟进，希望老师通融
